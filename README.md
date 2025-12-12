@@ -137,6 +137,12 @@ Clique nos ícones abaixo para acessar:
   <img src="https://img.icons8.com/color/48/linkedin.png" width="40" />
 </a>
 
+<a href="https://vercel.com/eristons-projects/fast-food-cc86">
+  <svg width="40" height="40" viewBox="0 0 116 100" fill="white" xmlns="http://www.w3.org/2000/svg">
+    <path d="M58 0L116 100H0L58 0Z"/>
+  </svg>
+</a>
+
 
 </div>
 
