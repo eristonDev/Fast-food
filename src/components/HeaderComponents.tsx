@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
-import hero from "/src/assets/imgs/hero-bg.jpg";
+import hero from "/src/assets/img/hero-bg.jpg";
 import ButtonComponent from "./ButtonComponent";
 import NavBarComponents from "./NavBarComponents";
 import useUIObject from "../hook/useUIObject";
