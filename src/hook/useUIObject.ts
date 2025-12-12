@@ -83,13 +83,13 @@ function useUIObject() {
       title: "Tasty Thursdays",
       discount: "20%",
       sub: "off",
-      photo: "src/assets/imgs/o1.jpg",
+      photo: "/imgs/o1.jpg",
     },
     {
       title: "Pizza Days",
       discount: "15%",
       sub: "off",
-      photo: "src/assets/imgs/o2.jpg",
+      photo: "/imgs/o2.jpg",
     },
   ];
 
@@ -98,13 +98,13 @@ function useUIObject() {
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur id eius iste velit ipsum asperiores omnis facilis, exercitationem ",
       title: 'Mike Hamell',
       span: "magna aliqua", 
-      photo: 'src/assets/imgs/client2.jpg',                      
+      photo: '/imgs/client2.jpg',                      
     }, 
     {
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur id eius iste velit ipsum asperiores omnis facilis, exercitationem ",
       title: 'Moana Michell',
       span: "magna aliqua", 
-      photo: 'src/assets/imgs/client1.jpg',  
+      photo: '/imgs/client1.jpg',  
     },
 
   ];
@@ -114,63 +114,63 @@ function useUIObject() {
       title: "Delicious Pizza",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$20",
-      photo: "src/assets/imgs/f1.png",
+      photo: "/imgs/f1.png",
       category: 'Pizza',
     },
     {
       title: "Delicious Burger",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$15",
-      photo: "src/assets/imgs/f2.png",
+      photo: "/imgs/f2.png",
       category: 'Burger',
     },
     {
       title: "Delicious Pizza",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$15",
-      photo: "src/assets/imgs/f6.png",
+      photo: "/imgs/f6.png",
       category: 'Pizza',
     },
     {
       title: "Delicious Pizza",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$17",
-      photo: "src/assets/imgs/f3.png",
+      photo: "/imgs/f3.png",
       category: 'Pizza',
     },
     {
       title: "Delicious Pasta",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$18",
-      photo: "src/assets/imgs/f4.png",
+      photo: "/imgs/f4.png",
       category: 'Pasta',
     },
     {
       title: "Tasty Burger",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$12",
-      photo: "src/assets/imgs/f7.png",
+      photo: "/imgs/f7.png",
       category: 'Burger',
     },
     {
       title: "Tasty Burger",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$14",
-      photo: "src/assets/imgs/f8.png",
+      photo: "/imgs/f8.png",
       category: 'Burger',
     },
     {
       title: "Delicious Pasta",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$10",
-      photo: "src/assets/imgs/f9.png",
+      photo: "/imgs/f9.png",
       category: 'Pasta',
     },
     {
       title: "French Fries",
       p: "Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque",
       price: "$10",
-      photo: "src/assets/imgs/f5.png",
+      photo: "/imgs/f5.png",
       category: 'Fries',
     }, 
     
@@ -207,7 +207,7 @@ function useUIObject() {
   const sectionAbout: About[] = [
 
     {
-      img:'src/assets/imgs/about-img.png',
+      img:'/imgs/about-img.png',
       title:'We Are Feane',
       p:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn t anything embarrassing hidden in the middle of text. All',
     }
