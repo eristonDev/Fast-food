@@ -1,8 +1,6 @@
 # Feane – Fast Food Restaurant 🍔
 
-Uma interface moderna e totalmente responsiva para um restaurante fast-food, desenvolvida com foco em desempenho, escalabilidade e uma experiência de usuário fluida.
-
-Este projeto demonstra a construção de um site profissional utilizando tecnologias atuais do ecossistema Front-End, combinando **velocidade, tipagem, animações suaves e design responsivo**.
+Interface Front-End moderna e totalmente responsiva para um restaurante fast-food, desenvolvida com React, TypeScript e Tailwind CSS, utilizando componentes reutilizáveis, dados dinâmicos e integração com APIs externas, com arquitetura preparada para integração com backend.
 
 # 🖥️ Preview do Projeto
 
@@ -55,6 +53,29 @@ Carrossel moderno e completamente responsivo.
 Suporte a swipe, navegação, autoplay e paginação.
 
 Perfeito para seções dinâmicas como banners e destaques.
+
+## 🧠 Arquitetura e Organização
+
+O projeto foi estruturado com foco em reutilização e escalabilidade, utilizando uma abordagem própria de organização de componentes (“lógica fluida”).
+
+- Componentes desacoplados e reutilizáveis
+- Lógica baseada em objetos para facilitar manutenção
+- Estrutura preparada para integração com backend
+- Separação clara entre UI, regras de negócio e dados.
+
+## 🔌 Integrações
+
+- Google Maps API para exibição de localização
+- Configuração de variáveis de ambiente (.env)
+- Pronto para consumo de APIs REST.
+
+## ⚙️ Funcionalidades
+
+- Interface responsiva (mobile, tablet e desktop)
+- Componentes reutilizáveis
+- Conteúdo dinâmico baseado em objetos
+- Animações com Framer Motion
+- Estrutura preparada para integração com backend
 
 ## 📱 Responsividade
 
@@ -118,7 +139,7 @@ Publicação contínua via GitHub
     <img src="https://ik.imagekit.io/jt4kdesenvolvimentos/perfil.svg?updatedAt=1742840251579" alt="photo-header" width="100">
 </h1>
  <p align="center"style="font-size: 12px; font-weight: lighter; color: white;">© - eriston.dev - <br>
-    Desenvolvedor Fullstack (Front-end & Back-end)</p>
+    Júnior Front-End </p>
 
 ### 🌍 Redes e Portfólios**
 
