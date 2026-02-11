@@ -7,7 +7,7 @@ function App() {
  
 
   return (
-    <div className="overflow-x-hidden [overscroll-behavior:none] [touch-action:pan-y]">
+    <div className="[overscroll-behavior:none] [touch-action:pan-y]">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}/>
