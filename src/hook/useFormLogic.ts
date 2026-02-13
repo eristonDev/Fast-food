@@ -51,12 +51,7 @@ const useFormLogic = () => {
 
   const fielfile = useRef<HTMLInputElement>(null);
 
-  useEffect(() => {
-
-    if (fielfile.current){
-      fielfile.current.focus();
-    }
-  },[]);
+  
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
 
@@ -74,9 +69,7 @@ const useFormLogic = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if(fielfile.current){
-      fielfile.current.value = '';
-    };
+    
 
     setData([...data, user]);
 
