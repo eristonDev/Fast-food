@@ -30,7 +30,7 @@ const FormComponent = ({fields, Category, handleChange, handleSubmit, user, plac
             <form onSubmit={handleSubmit} className="h-[480px] gap-y-4 flex flex-col place-items-center sm:place-items-center
             lg:place-items-start xl:place-items-start">
                 <h2 className="font-[Dancing_Script] font-bold text-4xl text-[#222831]">Book A Table</h2>
-                {fields.map((field , i)=> (
+                {fields.map((field )=> (
                     <input 
                         key={field.name}
                         name={field.name}
