@@ -6,7 +6,7 @@ import FooterComponent from "../components/FooterComponent";
 import AboutComponent from "../components/AboutComponent";
 
 const Home = () => {
-  const{fields, Category, handleChange, handleSubmit, fielfile, user, placeHolder} =useFormLogic();
+  const{fields, Category, handleChange, handleSubmit, user, placeHolder} =useFormLogic();
   
   return (
     <div>
@@ -27,7 +27,6 @@ const Home = () => {
               Category={Category}
               handleChange={handleChange}
               handleSubmit={handleSubmit}
-              fielfile={fielfile}
               user={user}
               placeHolder={placeHolder}
           />
