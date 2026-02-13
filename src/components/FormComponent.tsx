@@ -9,7 +9,6 @@ interface FormProps {
     Category: number[];
     handleChange: (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => void;
     handleSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-    fielfile: React.RefObject<HTMLInputElement | null>;
     placeHolder: {[K in keyof Users]: string};
 };
 
@@ -23,7 +22,7 @@ const center = {
     lng: -46.633308
 };
 
-const FormComponent = ({fields, Category, handleChange, handleSubmit, fielfile, user, placeHolder}: FormProps) => {
+const FormComponent = ({fields, Category, handleChange, handleSubmit, user, placeHolder}: FormProps) => {
   return (
     <div className="w-full sm:max-w-[606px] md:max-w-[674px] lg:max-w-full xl:max-w-full py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-10 md:px-10 lg:px-10 xl:px-10 grid grid-cols-1 sm:grid-cols-1 
@@ -47,7 +46,6 @@ const FormComponent = ({fields, Category, handleChange, handleSubmit, fielfile, 
                                 : ''
                             ) : user[field.name] ?? ''
                         }
-                        ref={i === 0 ? fielfile : undefined}
                         className={
                             ` w-full 
                               sm:max-w-[560px] 

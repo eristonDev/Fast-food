@@ -4,7 +4,7 @@ import useFormLogic from "../hook/useFormLogic";
 import FooterComponent from "../components/FooterComponent";
 
 const Booktable = () => {
-  const{fields, Category, handleChange, handleSubmit, fielfile, user, placeHolder} =useFormLogic();
+  const{fields, Category, handleChange, handleSubmit, user, placeHolder} =useFormLogic();
   return (
     <div>
        <HeaderComponents isOpen={false}/>
@@ -15,7 +15,6 @@ const Booktable = () => {
             Category={Category}
             handleChange={handleChange}
             handleSubmit={handleSubmit}
-            fielfile={fielfile}
             user={user}
             placeHolder={placeHolder}
           />
