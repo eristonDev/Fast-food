@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState,  useEffect } from "react";
 import type { Users, Field } from "../types/uiTypes";
 
 
@@ -49,10 +49,6 @@ const useFormLogic = () => {
 
   const[data, setData] = useState<Users[]>([]);
 
-  const fielfile = useRef<HTMLInputElement>(null);
-
-  
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
 
     const {name, type, value} = e.target;
@@ -70,7 +66,6 @@ const useFormLogic = () => {
     e.preventDefault();
 
     
-
     setData([...data, user]);
 
     setUser({
@@ -87,7 +82,7 @@ const useFormLogic = () => {
     console.log(data)
   },[data]);
 
-  return { fields, Category, handleChange, handleSubmit, fielfile, user, placeHolder }
+  return { fields, Category, handleChange, handleSubmit, user, placeHolder }
 
 }
 
